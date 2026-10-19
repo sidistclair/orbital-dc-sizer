@@ -16,7 +16,7 @@ I did some research on orbital data centres back in 2025 during my remote intern
 
 ![Results](results.png)
 
-From the tests, we can see that LEO needs ~57% more array area than GEO because of frequent eclipses. The radiator is ~1,100 m² per 910 kW. And the radiator area falls steeply with temperature, since radiated power scales with T⁴.
+From the results, LEO needs ~57% more array area than GEO because of frequent eclipses. The radiator is ~1,100 m² per 910 kW. And the radiator area falls steeply with temperature, since radiated power scales with T⁴.
 
 ## Assumptions
 
