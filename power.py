@@ -36,7 +36,7 @@ def main():
         array_power_w = solar_array_power_w(load_w, altitude)
         battery_cap_wh = battery_capacity_wh(load_w, altitude, depth_of_discharge)
         print(name, altitude, 'km',
-        f'{total_power_w(num_gpus, gpu_power_w) / 1000:.1f}', 'kilowatts',
+        f'{load_w / 1000:.1f}', 'kilowatts',
         f'{array_power_w / 1000:.1f}', 'kilowatts',
         f'{solar_array_area_m2(array_power_w):.1f}', 'meters squared',
         f'{battery_cap_wh / 1000:.1f}', 'kilowatt-hours',
