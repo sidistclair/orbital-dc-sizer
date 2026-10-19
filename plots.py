@@ -1,11 +1,9 @@
 import matplotlib.pyplot as plt
-import orbit, power, thermal
+import power, thermal
 
 GPU_POWER_W = 700
 LEO_ALTITUDE_KM = 550
-LEO_DOD = 0.3
 GEO_ALTITUDE_KM = 35786
-GEO_DOD = 0.7
 
 def main():
     gpu_counts = []

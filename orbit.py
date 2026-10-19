@@ -2,7 +2,7 @@ import math # needed for pi, sqrt, asin
 
 EARTH_RADIUS_KM = 6371 # in kilometers
 EARTH_GRAVITATIONAL_PARAMETER_KM3_S2 = 398600.4418 # in km^3 / s^2
-orbits = [("ISS", 420), ("Starlink", 550), ("GEO", 35786)]
+ORBITS = [("ISS", 420), ("Starlink", 550), ("GEO", 35786)]
 
 def orbit_radius(altitude_km):
     """Returns the orbit radius in kilometers."""
