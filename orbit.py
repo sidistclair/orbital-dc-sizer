@@ -20,7 +20,7 @@ def eclipse_duration(altitude_km):
 # test some altitudes
 def main():
     print("Orbit, Altitude, Period, Eclipse")
-    for name, altitude in orbits:
+    for name, altitude in ORBITS:
         print(name, altitude, 'km',
         f'{orbital_period(altitude) / 60:.1f}', 'min',
         f'{eclipse_duration(altitude) / 60:.1f}', 'min')
